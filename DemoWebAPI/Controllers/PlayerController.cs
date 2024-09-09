@@ -30,6 +30,14 @@ namespace DemoWebAPI.Controllers
             return Ok(FakePlayerService.Liste);
         }
 
+        [HttpGet("{id}")]
+        public IActionResult GetById(int id)
+        {
+            Player p = FakePlayerService.Liste.FirstOrDefault(p => p.Id == id);
+            if (p is null) return NotFound("Joueur introuvable");
+            return Ok(p);
+        }
+
         [HttpPost]
         public IActionResult Create(Player player)
         {
