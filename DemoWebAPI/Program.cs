@@ -1,3 +1,5 @@
+using DemoWebAPI.Services;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -6,6 +8,9 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
+//Ajout du player service dans l'annuaire de service
+builder.Services.AddScoped<IPlayerService, PlayerService>();
 
 var app = builder.Build();
 

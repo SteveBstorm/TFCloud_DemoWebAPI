@@ -1,0 +1,6 @@
+﻿CREATE TABLE [dbo].[Player]
+(
+	[Id] INT NOT NULL PRIMARY KEY IDENTITY,
+	Nickname VARCHAR(50) NOT NULL,
+	Email VARCHAR(50) NOT NULL
+)

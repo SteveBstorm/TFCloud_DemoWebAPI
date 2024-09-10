@@ -5,6 +5,8 @@ VisualStudioVersion = 17.9.34701.34
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoWebAPI", "DemoWebAPI\DemoWebAPI.csproj", "{8CDCB947-F467-402A-9082-069DF7C4A408}"
 EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "DemoWebAPI_DB", "DemoWebAPI_DB\DemoWebAPI_DB.sqlproj", "{779AA4F4-7FD4-4D49-A7A7-CB415486A12A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,12 @@ Global
 		{8CDCB947-F467-402A-9082-069DF7C4A408}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8CDCB947-F467-402A-9082-069DF7C4A408}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8CDCB947-F467-402A-9082-069DF7C4A408}.Release|Any CPU.Build.0 = Release|Any CPU
+		{779AA4F4-7FD4-4D49-A7A7-CB415486A12A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{779AA4F4-7FD4-4D49-A7A7-CB415486A12A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{779AA4F4-7FD4-4D49-A7A7-CB415486A12A}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{779AA4F4-7FD4-4D49-A7A7-CB415486A12A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{779AA4F4-7FD4-4D49-A7A7-CB415486A12A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{779AA4F4-7FD4-4D49-A7A7-CB415486A12A}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
